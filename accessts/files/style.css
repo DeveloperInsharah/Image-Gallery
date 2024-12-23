@@ -516,6 +516,15 @@ a{
     .w-40{
         width: 100% !important;
     }
+    .intro{
+    background-color: #D4C2CA;
+}
+.hov{
+    transition: 0.6s;
+}
+.hov:hover{
+    letter-spacing: 2px;
+}
     .carousel{
         left: 90% !important;
     }
