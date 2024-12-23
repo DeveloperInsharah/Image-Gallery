@@ -123,6 +123,15 @@
     border: 1px groove #bea6b2;
     box-shadow: 2px 2px 10px 10px #bea6b2d0;
 }
+  .intro{
+    background-color: #D4C2CA;
+}
+.hov{
+    transition: 0.6s;
+}
+.hov:hover{
+    letter-spacing: 2px;
+}
 .right .overlay{ 
     background-color: rgba(205, 194, 188, 0.479) !important;
 }
@@ -516,15 +525,6 @@ a{
     .w-40{
         width: 100% !important;
     }
-    .intro{
-    background-color: #D4C2CA;
-}
-.hov{
-    transition: 0.6s;
-}
-.hov:hover{
-    letter-spacing: 2px;
-}
     .carousel{
         left: 90% !important;
     }
