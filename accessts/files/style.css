@@ -123,14 +123,14 @@
     border: 1px groove #bea6b2;
     box-shadow: 2px 2px 10px 10px #bea6b2d0;
 }
-  .intro{
-    background-color: #D4C2CA;
+.intro{
+    background-color: #D4C2CA !important;
 }
 .hov{
-    transition: 0.6s;
+    transition: 0.6s !important;
 }
 .hov:hover{
-    letter-spacing: 2px;
+    letter-spacing: 2px !important;
 }
 .right .overlay{ 
     background-color: rgba(205, 194, 188, 0.479) !important;
