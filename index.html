@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DI || Image Gallery</title>
+    <link rel="stylesheet" href="accessts/files/style.css">
+    <link rel="shortcut icon" href="accessts/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+    <div class="main">
+    <div class="Hero w-100">
+    <div class="cont w-full relative">
+        <div class="slides overflow-hidden vh-100 w-100 position-sticky top-0 start-0 d-flex overflow-hidden">
+      <div class="hero slide w-100 h-100 d-flex justify-content-center align-items-center flex-shrink-0 relative overflow-hidden">
+        <div class="w-100 h-100 position-absolute overlay top-0 start-0"></div>
+        <div class="content w-100 h-100 position-relative overflow-hidden">
+            <div class="line-1 position-relative">
+              <div class="d-inline-block position-absolute r-text play">RUSTIC GREENERY</div>
+            </div>
+            <div class="heading position-absolute">
+                <h1 class="text-uppercase neue">DI</h1>
+                <p class="text-uppercase play position-absolute">
+                    <span class="g">&nbsp; G</span>
+                    <span class="a">a</span>
+                    <span class="l1">l</span>
+                    <span class="l2">l</span>
+                    <span class="e3">e</span>
+                    <span class="r">r</span>
+                    <span class="y">y</span>
+                    <span class="w"> &nbsp;W</span>
+                    <span class="e1">e</span>
+                    <span class="b">b</span>
+                    <span class="s">s</span>
+                    <span class="i">i</span>
+                    <span class="t">t</span>
+                    <span class="e2">e</span>
+                </p>
+                <h3 class="text-uppercase position-absolute play">Image <span class="position-absolute"></span> Gallery</h3>
+            </div>
+            <div class="img1 position-absolute"></div>
+            <div class="img2 position-absolute"></div>
+            <div class="text position-absolute play d-flex"><div class="line-2 position-absolute play"> </div> TEXTURED <span class="span1">ELEGANCE IN A &nbsp; </span> <span class="span2"> &nbsp;LIVING &nbsp; </span>  SPACE</div>
+            <div class="right position-absolute d-inline-block py-2 px-4 overflow-hidden">
+            </div>
+        </div>
+       </div>
+      <div class="hero slide w-100 h-100 d-flex justify-content-center align-items-center flex-shrink-0 relative overflow-hidden">
+      <div class="w-100 h-100 position-absolute overlay top-0 start-0"></div>
+      <div class="content w-100 h-100 position-relative overflow-hidden">
+        <div class="imga h-100 m-4"></div>
+        <div class="im position-absolute"></div>
+        <div class="etraight position-absolute"></div>
+        <div class="straight position-absolute"></div>
+        <div class="traight position-absolute"></div>
+        <img src="https://i.pinimg.com/736x/f2/f6/fa/f2f6fab29ab03e1b198eaffecea580cb.jpg" alt="" class="img-1 position-absolute">
+        <img src="https://i.pinimg.com/736x/3c/84/a7/3c84a76dc8545c5a97a32cec1e260372.jpg" alt="" class="img-2 position-absolute">
+        <img src="https://i.pinimg.com/736x/cf/6d/0d/cf6d0d9ccc92297739236f35ec3c7a5e.jpg" alt="" class="img-3 position-absolute">
+        <img src="https://i.pinimg.com/736x/ba/c4/11/bac41100d7f8e140c6fe734255a14fc3.jpg" alt="" class="img-4 position-absolute">
+        <div class="tet m-3 p-5 pe-4">
+          <h1 class="f1 mt-1 mt-lg-5">ABOUT</h1>
+          <p class="play w-40 mt-2 mt-lg-5 imp">Welcome to our image gallery, where we showcase a diverse collection of stunning visuals. Whether you're a photography enthusiast, an art lover, or simply someone who enjoys beautiful imagery <span class="hidden"> &nbsp;, you'll find something to inspire you here.</span> </p>
+          <a class="button px-4 py-3 overflow-hidden mt-1 mt-lg-4 d-inline-block position-relative" href="#id"><div class="position-relative">Explore Images</div> <div class="position-absolute w-100 h-100 o top-0 start-0"></div> </a>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div> 
+</div>
+       <div class="w-100 d-flex justify-content-center align-items-center flex-shrink-0 position-relative overflow-hidden" style="background-image: url(accessts/img/background.avif);background-position: center;background-size: cover;z-index: 2;">
+            <div class="overlay w-100 h-100 position-absolute" style="z-index: 4;  top: 0; left: 0; background-color:rgba(205, 194, 188, 0.726);"></div>
+      <div class="content w-100 h-100 position-relative" style="z-index: 5;">
+        <div class="search bigimg m-1 m-md-4 position-relative" style="height: 300px ;">
+          <div class="w-100 h-100 position-absolute top-0 start-0 o-lay"></div>
+          <div class="input d-flex">
+            <input type="text" class="h-100 w-75 ps-5 p-3" placeholder="Search Image" id="input"   oninput="filterImages(this.value)"
+            autocomplete="off">
+            <div class="w-25 remain h-100 position-relative">
+              <div class="position-absolute w-100 h-100 lay d-flex justify-content-center align-items-center">
+                <i class="ri-search-line position-relative text-white fs-2"></i>
+              </div>
+            </div>         
+            <div id="suggestions-box" class="fs-4 ps-5 py-3 mt-2" style=" line-height: 40px;position: absolute; top: 100%; left: 0; width: 100%; border: 1px solid #ddd; background: white; display: none; z-index: 1000; max-height: 150px; overflow-y: auto;"></div>
+          </div>
+          <div id="carouselExampleAutoplaying" class="carousel slide position-relative" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active overflow-hidden">
+               <p class="text-white f-1 neue fw-bolder ps-5">DI IMAGE GALLERY</p>
+               <p class="text-white text-center fs-4 play" style="margin-top: -30px;">Any Kind Of Image</p>
+              </div>
+              <div class="carousel-item overflow-hidden">
+                <p class="text-white f-1 neue fw-bolder ps-5">DI IMAGE GALLERY</p>
+                <p class="text-white text-center fs-4 play" style="margin-top: -30px;">Any Kind Of Image</p>
+              </div>
+              <div class="carousel-item overflow-hidden">
+                <p class="text-white f-1 neue fw-bolder ps-5">DI IMAGE GALLERY</p>
+                <p class="text-white text-center fs-4 play" style="margin-top: -30px;">Any Kind Of Image</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="id" class="container-fluid contain d-flex picture-div mx-auto flex-wrap justify-content-center position-relative">
+          <div class="row gap-4 justify-content-center">
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Home Anterior" data-description="Light Home Anterior Design Ideas" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/d3/fd/62/d3fd62724fe2229416447dec135d4c09.jpg" alt="" class="clickable-image image-1"   data-title="Home Anterior" data-description="Light Home Anterior Design Ideas" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Home Anterior" data-description="Dark Home Anterior Design Ideas" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/9a/4e/aa/9a4eaa38a9905499c836dd9f1c4c54b1.jpg" alt="" class="clickable-image image-1"   data-title="Home Anterior" data-description="Dark Home Anterior Design Ideas" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Laxurious Home Anterior" data-description="Laxurious Home Anterior Design Ideas" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/58/7b/ea/587beab8e9c8671c64878b2ce7496412.jpg" alt="" class="clickable-image image-1"   data-title="Laxurious Home Anterior" data-description="Laxurious Home Anterior Design Ideas" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Golden Laxurious Home Anterior" data-description="Golden Laxurious Home Anterior Design Ideas" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/36/cc/4b/36cc4bbac9f32c02373f174240975c2e.jpg" alt="" class="clickable-image image-1"   data-title="Golden Laxurious Home Anterior" data-description="Golden Laxurious Home Anterior Design Ideas" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Dark Scenery" data-description="Dark Scenery With One Boat" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/44/ff/16/44ff165ef33f60f9c1df2411c87ad163.jpg" alt="" class="clickable-image image-1"   data-title="Dark Scenery" data-description="Dark Scenery With One Boat" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Dark Sunset Scenery" data-description="Dark Sunset Scenery mountains , trees" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/49/84/b3/4984b3cbda3fe8dabe5172d2085f47c0.jpg" alt="" class="clickable-image image-1"   data-title="Dark Sunset Scenery" data-description="Dark Sunset Scenery With One Boat" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Sunrise Scenery" data-description="Sunrise Scenery With Flower" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/55/c8/92/55c8923088bda7895a71c2873ce9f2e1.jpg" alt="" class="clickable-image image-1"   data-title="Sunrise Scenery" data-description="Sunrise Scenery With Flower" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Beautiful Scenery" data-description="Beautiful Blue Scenery With Clouds" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/54/fe/77/54fe773079cf7adc736b4996913cd90f.jpg" alt="" class="clickable-image image-1"   data-title="Beautiful Scenery"  data-description="Beautiful Blue Scenery With Clouds">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Nature Image" data-description="Nature Mountains" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/2a/6b/bb/2a6bbb6053df272f1d35149211ec0e1a.jpg" alt="" class="clickable-image image-1"   data-title="Nature Image" data-description="Nature Mountains" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Nature Image" data-description="Nature Mountains With Water Flows" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/ad/79/58/ad7958849a4d96cd0c8737fc2027fe19.jpg" alt="" class="clickable-image image-1" data-title="Nature Image"  data-description="Nature Mountains With Water Flows">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Nature Image" data-description="Beautiful Scenery With Rainbow" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/1d/d4/74/1dd47498242661f7aec53cc7162f5f65.jpg" alt="" class="clickable-image image-1"   data-title="Nature Image"  data-description="Beautiful Scenery With Rainbow">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Wallpaper" data-description="Beautiful Colorful Wallpaper" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/d6/e0/a4/d6e0a48e277ea11d0b27371a6a652d7e.jpg" alt="" class="clickable-image image-1"   data-title="Dark Sunset Scenery" data-description="Beautiful Colorful Wallpaper" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Wallpaper" data-description="Beautiful Dark Color Wallpaper" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/19/bc/2a/19bc2a3355d8e9681bf2dfb5169b93b9.jpg" alt="" class="clickable-image image-1"   data-title="Wallpaper" data-description="Beautiful Dark Color Wallpaper">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Wallpaper" data-description="Beautiful Nature Wallpaper" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/a2/11/58/a21158cbcedfb135c6eadf95390da650.jpg" alt="" class="clickable-image image-1"   data-title="Nature Wallpaper"data-description="Beautiful Nature Wallpaper">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Wallpaper" data-description="Purple Nature Wallpaper" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/c6/87/c1/c687c11e28d46af87b1992f92552dcb4.jpg" alt="" class="clickable-image image-1"   data-title="Wallpaper" data-description="Purple Nature Wallpaper">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Wallpaper" data-description="Beautiful Wallpaper" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/29/36/a7/2936a7a11457092aa7c4dc06c997f711.jpg" alt="" class="clickable-image image-1" data-title="Wallpaper" data-description="Beautiful Wallpaper">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Breakfast" data-description="Delicious Breakfast" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/81/ca/37/81ca3798fec886e92f21b8aa416e05f5.jpg" alt="" class="clickable-image image-1"  data-title="Breakfast" data-description="Delicious Breakfast">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Breakfast" data-description="Breakfast With Half Fry Eggs" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/f4/85/73/f48573d0e6af768a13a1adb823a0052f.jpg" alt="" class="clickable-image image-1"   data-title="Dark Sunset Scenery" data-description="Dark Sunset Scenery With One Boat" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Breakfast" data-description="Healthy Diet" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/36/da/20/36da206d7309408cbe1964e3f347e45c.jpg" alt="" class="clickable-image image-1"   data-title="Dark Sunset Scenery" data-description="Dark Sunset Scenery With One Boat" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Motivation" data-description="Motivational Lines" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/26/97/e8/2697e8919167d7380fddd7a6609e0eaf.jpg" alt="" class="clickable-image image-1" data-title="Motivation" data-description="Motivational Lines">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Motivation" data-description="Motivational Lines" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/32/48/ea/3248eae098dbcc89b7a1486d745b2fbc.jpg" alt="" class="clickable-image image-1" data-title="Motivation" data-description="Motivational Lines">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Landscape" data-description="Beautiful Landscape Painting" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/eb/2a/54/eb2a54ca4fbb0161d6e8e504e007c11c.jpg" alt="" class="clickable-image image-1"  data-title="Landscape" data-description="Beautiful Landscape Painting">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Snowman" data-description="Snowman With Winter And Snowfall" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/9f/36/60/9f3660e8fbb1a2ba24ff2180f2d01cf3.jpg" alt="" class="clickable-image image-1" data-title="Motivation" data-description="Motivational Lines">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="New Year" data-description="Happy New Year 2025 Wish" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/4c/42/fb/4c42fb53a0e1c66f56e00bac3ed25a49.jpg" alt="" class="clickable-image image-1" data-title="New Year" data-description="Happy New Year 2025 Wish">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="New Year" data-description="Happy New Year 2025 Wish" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/b4/e9/21/b4e921fb3dbe9aebdde01536bd1737d9.jpg" alt="" class="clickable-image image-1" data-title="New Year" data-description="Happy New Year 2025 Wish">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Motivation" data-description="Motivational Lines" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/7f/9a/b9/7f9ab91490e4a78b1c05752d5ac337f1.jpg" alt="" class="clickable-image image-1" data-title="Motivation" data-description="Motivational Lines">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Home Decor" data-description="Home Decor Books Liabrary" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/dd/3d/80/dd3d80b1ed5ca7ce0b1e1762706c0311.jpg" alt="" class="clickable-image image-1" data-title="Home Decor" data-description="Home Decor Books Liabrary">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Home Decor" data-description="Home Decor Books Liabrary" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/41/36/3b/41363bbb5da98f9562152da3f07d39b6.jpg" alt="" class="clickable-image image-1" data-title="Home Decor" data-description="Home Decor Books Liabrary">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Bedroom" data-description="Laxurious Bedroom Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/90/51/84/905184765d29071b01d3ee1cbe6073b2.jpg" alt="" class="clickable-image image-1" data-title="Bedroom" data-description="Laxurious Bedroom Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Bedroom" data-description="Laxurious Bedroom Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/04/38/f6/0438f6061efffbcc9303651b63dce33e.jpg" alt="" class="clickable-image image-1" data-title="Bedroom" data-description="Laxurious Bedroom Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Bedroom" data-description="Laxurious Bedroom Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/aa/a8/f6/aaa8f682d84c5dc96779b381499012a6.jpg" alt="" class="clickable-image image-1" data-title="Bedroom" data-description="Laxurious Bedroom Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Bedroom" data-description="Laxurious Bedroom Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/78/82/bd/7882bde21e4ed06f1fff2ead53833295.jpg" alt="" class="clickable-image image-1" data-title="Bedroom" data-description="Laxurious Bedroom Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Modal" data-description="Modal Image" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/2c/78/46/2c7846f8ba008c46e3124c683e5cec4d.jpg" alt="" class="clickable-image image-1" data-title="Modal" data-description="Modal Image" >
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Modal" data-description="Modal Image" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/77/d7/37/77d73767a21746d1cc25b49459991186.jpg" alt="" class="clickable-image image-1"  data-title="Modal" data-description="Modal Image">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Modal" data-description="Modal Image" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/07/80/45/078045c68c7b6f433108b46ee1dcbbdd.jpg" alt="" class="clickable-image image-1"  data-title="Modal" data-description="Modal Image">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3"  data-title="Good Morning" data-description="Good Morning Wish" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/cc/ce/fd/cccefdd4007c1a9d89bfb8b1fca7eaea.jpg" alt="" class="clickable-image image-1"  data-title="Good Morning" data-description="Good Morning Wish">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2"  data-title="Good Morning" data-description="Good Morning Wish" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/da/81/26/da81260f2e0e1d197d56f0818395fce9.jpg" alt="" class="clickable-image image-1"  data-title="Good Morning" data-description="Good Morning Wish">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/89/3a/82/893a825b7d6e3433ae3b8da650146838.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/55/ee/a4/55eea4a0a028571619b276f03928d8e3.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/00/d5/81/00d581e8edbc4e2662b51e7d480d39af.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/d4/73/e7/d473e781e43e8a111070ec7fc2ddbfc9.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/9e/c9/ec/9ec9ec56af4f8f58cf8536b7effdf2b3.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/4f/15/7a/4f157a34ffea2cf82e07b75c66c02ee5.jpg" alt="" class="clickable-image image-1" data-title="Hand Mehndi Design" data-description="Stylish Hand Floral Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/6f/a0/4f/6fa04f1b32d343d7e16e5062c9f10a5d.jpg" alt="" class="clickable-image image-1" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/51/5a/c2/515ac227d69492f8a1fabcadc4a7e378.jpg" alt="" class="clickable-image image-1" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/16/53/ea/1653ea9332ee531190287123eb06d79c.jpg" alt="" class="clickable-image image-1" data-title="Foot Mehndi Design" data-description="Stylish Foot Mehndi Design">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="Garden" data-description="Garden Lawn With Greenery" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/2b/ca/04/2bca047a2f37051b842d597c8ef8800b.jpg" alt="" class="clickable-image image-1"  data-title="Garden" data-description="Garden Lawn With Greenery">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Makeup" data-description="Smokey Eye Makeup Look" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/f1/ff/3f/f1ff3f0a130931f6a106b740f46800cb.jpg" alt="" class="clickable-image image-1" data-title="Makeup" data-description="Smokey Eye Makeup Look">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="Makeup" data-description="Shimery Makeup Look" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/63/89/9d/63899d2857e04684732fb4bfd9970bda.jpg" alt="" class="clickable-image image-1"data-title="Makeup" data-description="Shimery Makeup Look">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="DP" data-description="Dp For Girls" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/0b/99/76/0b9976a233dce85e182f02dfed5754b4.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Girls">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="DP" data-description="Dp For Girls" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/30/f2/03/30f203ad9a7743b6b8e6c98e075a62b7.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Girls">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="DP" data-description="Dp For Girls" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/a5/8a/db/a58adb32fa79f8f2e2fe7139910c4db5.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Girls">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="DP" data-description="Dp For Boys" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/0a/10/85/0a10854bbbbd7ca556a7e81563c1192b.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Boys">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-2" data-title="DP" data-description="Dp For Boys" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/d8/21/d1/d821d1f3ff943fca1034f65d81fcf12d.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Boys">
+          </div>
+          <div id="img" class="col-12 col-md-6 col-lg-3" data-title="DP" data-description="Dp For Boys" class="position-relative" >
+            <img src="https://i.pinimg.com/736x/60/53/f3/6053f34d758a2d1e1be175edf8733113.jpg" alt="" class="clickable-image image-1" data-title="DP" data-description="Dp For Boys">
+          </div>
+        </div>
+        </div>
+        <div id="image-modal" class="modal">
+          <div class="modal-content">
+              <img id="modal-image" src="" alt="Selected Image">
+              <h2 id="modal-title" class="neue"></h2>
+              <p id="modal-description" class="play"></p>
+              <a href="" download id="imgDownload">
+                <button class="btn">Download</button>
+              </a>
+              <span class="close-button">&times;</span>
+          </div>
+      </div>
+   
+      </div>
+    </div>
+      </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="accessts/files/app.js"></script>
+  </body>
+</html>
