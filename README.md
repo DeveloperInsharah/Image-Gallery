@@ -1,3 +1,4 @@
+<hr>
 <h1>Hy! 👋🏻 I am Insharah Developer</h1>
 <h2>That is my <b>IMAGE GALLERY PROJECT</b></h2>
 <p>That is a task of our internship with <b>Code Alpha</b></p>
