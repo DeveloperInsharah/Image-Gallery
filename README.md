@@ -17,32 +17,9 @@ This is a responsive Image Gallery project developed using **HTML**, **CSS**, **
 - **JavaScript**: For interactive features like image previews.
 - **Bootstrap**: For a responsive and mobile-first design.
 
-## Folder Structure
-
-```plaintext
-image-gallery/
-├── index.html           # Main HTML file
-├── css/
-│   └── styles.css       # Custom CSS file
-├── js/
-│   └── script.js        # JavaScript file
-├── images/              # Folder for images
-└── README.md            # Project documentation
-```
-
 ## Setup and Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/image-gallery.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd image-gallery
-   ```
-
-3. Open `index.html` in your browser to view the gallery.
+1. Open `index.html` in your browser to view the gallery.
 
 ## Usage
 
@@ -58,10 +35,6 @@ image-gallery/
 ```
 
 3. Customize the gallery by editing the `styles.css` and `script.js` files.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
