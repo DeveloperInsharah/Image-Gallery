@@ -1,7 +1,7 @@
-<hr>
+
 <h1>Hy! 👋🏻 I am Insharah Developer</h1>
 <h2>That is my <b>IMAGE GALLERY PROJECT</b></h2>
-<p>That is a task of our internship with <b>Code Alpha</b></p>
+<h4>That is a task of our internship with <b>Code Alpha</b></h4>
 <hr>
 
 This is a responsive Image Gallery project developed using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. The gallery showcases images in an elegant layout, providing a smooth user experience with features like responsive design and interactive image previews.
